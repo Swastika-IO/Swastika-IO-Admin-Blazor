@@ -1,7 +1,10 @@
 ﻿@page "/Portal/"
 
-<h1>Hello, world portal!</h1>
 
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+    <!-- Page Content Holder -->
+    <div class="container-fluid wrapper">
+        <div class="row flex-xl-nowrap">
+            <PortalNavMenu />
+            <Dashboard />
+        </div>
+    </div>

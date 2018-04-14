@@ -43,4 +43,20 @@
     <BlazorGenerate Remove="Shared\PortalNavMenu.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\Portal\Shared\PortalHeader.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Portal\Shared\PortalHeader.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Portal\Shared\PortalHeader.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\Portal\Dashboard.cshtml" />
+  </ItemGroup>
+
 </Project>

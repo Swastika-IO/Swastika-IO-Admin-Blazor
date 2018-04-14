@@ -87,5 +87,9 @@ E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalLayout.g.i.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\_ViewImports.g.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalLayout.g.cs
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalNavMenu.g.i.cs
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalNavMenu.g.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\Shared\PortalNavMenu.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\Shared\PortalNavMenu.g.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\Shared\PortalHeader.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\Shared\PortalHeader.g.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\Dashboard.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\Dashboard.g.cs

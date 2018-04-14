@@ -1,16 +1,11 @@
 ﻿@implements ILayoutComponent
 
-<div class='container-fluid'>
-    <div class='row'>
-        <div class='col-sm-3'>
-            <PortalNavMenu />
-        </div>
-        <div class='col-sm-9'>
-            @Body
-        </div>
-    </div>
-</div>
+
+    <PortalHeader />
+
+    @Body
+
 
 @functions {
-    public RenderFragment Body { get; set; }
+public RenderFragment Body { get; set; }
 }
