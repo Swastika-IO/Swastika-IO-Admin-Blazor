@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <BlazorGenerate Remove="Pages\Portal\Index.cshtml" />
+    <BlazorGenerate Remove="Pages\portal\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <BlazorGenerate Remove="Pages\Portal\_ViewImports.cshtml" />
+    <BlazorGenerate Remove="Pages\portal\_ViewImports.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -44,19 +44,49 @@
   </ItemGroup>
 
   <ItemGroup>
-    <BlazorGenerate Remove="Pages\Portal\Shared\PortalHeader.cshtml" />
+    <BlazorGenerate Remove="Pages\portal\Shared\PortalHeader.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\Portal\Shared\PortalHeader.cshtml" />
+    <Content Remove="Pages\portal\Shared\PortalHeader.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Pages\Portal\Shared\PortalHeader.cshtml" />
+    <None Include="Pages\portal\Shared\PortalHeader.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <BlazorGenerate Remove="Pages\Portal\Dashboard.cshtml" />
+    <BlazorGenerate Remove="Pages\portal\Dashboard.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\cms\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Pages\Portal\Cms\Index.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\cms\CmsDashboard.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\ecom\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\ecom\ecomDashboard.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\forum\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\forum\ForumDashboard.cshtml" />
   </ItemGroup>
 
 </Project>

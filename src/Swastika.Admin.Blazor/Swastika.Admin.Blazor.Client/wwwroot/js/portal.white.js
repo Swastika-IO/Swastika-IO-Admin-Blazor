@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('#sidebarCollapse').on('click', function () {
         $('#sidebar').toggleClass('active');
     });
-
+    
     $('[data-toggle="tooltip"]').tooltip({
         delay: { "show": 500, "hide": 100 }
     });
