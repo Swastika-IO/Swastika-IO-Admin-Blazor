@@ -15,4 +15,32 @@
     <ProjectReference Include="..\Swastika.Admin.Blazor.Shared\Swastika.Admin.Blazor.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\Portal\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Pages\Portal\Index.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Shared\PortalLayout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\Portal\_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Pages\Portal\_ViewImports.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Shared\PortalNavMenu.cshtml" />
+  </ItemGroup>
+
 </Project>

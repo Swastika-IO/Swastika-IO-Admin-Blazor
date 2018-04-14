@@ -81,3 +81,11 @@ E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\blazor\linker\System.Security.Cryptography.Algorithms.dll
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\blazor\inputs.index.cache
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\blazor\index.html
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\Index.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\Index.g.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\_ViewImports.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalLayout.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\Portal\_ViewImports.g.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalLayout.g.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalNavMenu.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalNavMenu.g.cs
