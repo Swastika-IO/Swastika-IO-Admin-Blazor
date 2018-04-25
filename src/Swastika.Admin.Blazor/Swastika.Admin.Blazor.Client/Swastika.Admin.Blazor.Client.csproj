@@ -22,19 +22,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <BlazorGenerate Remove="Pages\portal\cms\Shared\CmsHeader.cshtml" />
+    <BlazorGenerate Remove="Pages\Portal\CMS\Shared\CmsHeader.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <BlazorGenerate Remove="Pages\portal\ecom\Shared\EcomHeader.cshtml" />
+    <BlazorGenerate Remove="Pages\Portal\Ecom\Shared\EcomHeader.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <BlazorGenerate Remove="Pages\portal\ecom\Shared\EcomNavMenu.cshtml" />
+    <BlazorGenerate Remove="Pages\Portal\Ecom\Shared\EcomNavMenu.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <BlazorGenerate Remove="Pages\portal\cms\CmsPages.cshtml" />
+    <BlazorGenerate Remove="Pages\Portal\CMS\CmsPages.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,11 +42,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <BlazorGenerate Remove="Pages\portal\cms\_ViewImports.cshtml" />
+    <BlazorGenerate Remove="Pages\Portal\CMS\_ViewImports.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Update="Pages\portal\cms\_ViewImports.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\Portal\Ecom\Shared\PortalEcomLayout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\Portal\Ecom\_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Pages\Portal\Ecom\_ViewImports.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
   </ItemGroup>
