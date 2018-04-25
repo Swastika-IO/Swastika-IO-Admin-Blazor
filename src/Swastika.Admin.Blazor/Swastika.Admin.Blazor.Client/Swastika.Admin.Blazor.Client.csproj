@@ -15,4 +15,40 @@
     <ProjectReference Include="..\Swastika.Admin.Blazor.Shared\Swastika.Admin.Blazor.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Pages\portal\cms\Shared\PortalNavMenu.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\cms\Shared\CmsHeader.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\ecom\Shared\EcomHeader.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\ecom\Shared\EcomNavMenu.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\cms\CmsPages.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Shared\PortalCmsLayout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\portal\cms\_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Pages\portal\cms\_ViewImports.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
 </Project>

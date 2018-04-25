@@ -122,7 +122,6 @@ E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\_ViewImports.g.i.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\MainLayout.g.i.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\NavMenu.g.i.cs
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalLayout.g.i.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\SurveyPrompt.g.i.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\_ViewImports.g.i.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\BlazorTemp\Swastika.Admin.Blazor.Client.dll
@@ -147,7 +146,6 @@ E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\_ViewImports.g.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\MainLayout.g.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\NavMenu.g.cs
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalLayout.g.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\SurveyPrompt.g.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\_ViewImports.g.cs
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Swastika.Admin.Blazor.Client.AssemblyInfoInputs.cache
@@ -174,3 +172,13 @@ E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\blazor\linker\System.Net.Http.dll
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\blazor\inputs.index.cache
 E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\blazor\index.html
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\portal\cms\Shared\CmsHeader.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\portal\cms\Shared\CmsHeader.g.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\portal\ecom\Shared\EcomHeader.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\portal\ecom\Shared\EcomNavMenu.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\portal\ecom\Shared\EcomHeader.g.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\portal\ecom\Shared\EcomNavMenu.g.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\portal\cms\CmsPages.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Pages\portal\cms\CmsPages.g.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalLayout.g.i.cs
+E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\obj\Debug\netstandard2.0\Shared\PortalLayout.g.cs

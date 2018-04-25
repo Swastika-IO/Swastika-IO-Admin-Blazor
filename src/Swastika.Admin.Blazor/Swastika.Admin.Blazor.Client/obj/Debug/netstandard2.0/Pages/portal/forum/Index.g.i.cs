@@ -19,6 +19,8 @@ namespace Swastika.Admin.Blazor.Client.Pages.portal.forum
     using Microsoft.AspNetCore.Blazor.Routing;
     using Swastika.Admin.Blazor.Client;
     using Swastika.Admin.Blazor.Client.Shared;
+    using Swastika.Admin.Blazor.Client.Pages.portal;
+    using Swastika.Admin.Blazor.Client.Pages.portal.Shared;
     [Microsoft.AspNetCore.Blazor.Layouts.LayoutAttribute(typeof(PortalLayout))]
 
     [Microsoft.AspNetCore.Blazor.Components.RouteAttribute("/portal/forum")]

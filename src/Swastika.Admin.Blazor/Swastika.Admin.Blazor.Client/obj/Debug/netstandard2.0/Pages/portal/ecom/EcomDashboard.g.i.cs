@@ -19,6 +19,8 @@ namespace Swastika.Admin.Blazor.Client.Pages.portal.ecom
     using Microsoft.AspNetCore.Blazor.Routing;
     using Swastika.Admin.Blazor.Client;
     using Swastika.Admin.Blazor.Client.Shared;
+    using Swastika.Admin.Blazor.Client.Pages.portal;
+    using Swastika.Admin.Blazor.Client.Pages.portal.Shared;
     [Microsoft.AspNetCore.Blazor.Layouts.LayoutAttribute(typeof(PortalLayout))]
 
     public class EcomDashboard : Microsoft.AspNetCore.Blazor.Components.BlazorComponent
