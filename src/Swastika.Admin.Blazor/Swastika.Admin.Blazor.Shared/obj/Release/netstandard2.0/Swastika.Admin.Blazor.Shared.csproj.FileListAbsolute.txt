@@ -1,8 +1,0 @@
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Shared\bin\Release\netstandard2.0\Swastika.Admin.Blazor.Shared.deps.json
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Shared\bin\Release\netstandard2.0\Swastika.Admin.Blazor.Shared.dll
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Shared\bin\Release\netstandard2.0\Swastika.Admin.Blazor.Shared.pdb
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Shared\obj\Release\netstandard2.0\Swastika.Admin.Blazor.Shared.csproj.CoreCompileInputs.cache
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Shared\obj\Release\netstandard2.0\Swastika.Admin.Blazor.Shared.AssemblyInfoInputs.cache
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Shared\obj\Release\netstandard2.0\Swastika.Admin.Blazor.Shared.AssemblyInfo.cs
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Shared\obj\Release\netstandard2.0\Swastika.Admin.Blazor.Shared.dll
-E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Shared\obj\Release\netstandard2.0\Swastika.Admin.Blazor.Shared.pdb

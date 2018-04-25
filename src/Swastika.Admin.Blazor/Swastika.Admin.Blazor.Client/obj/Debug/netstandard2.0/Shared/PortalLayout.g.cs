@@ -22,15 +22,19 @@ namespace Swastika.Admin.Blazor.Client.Shared
         {
             base.BuildRenderTree(builder);
             builder.AddContent(0, "\n\n    ");
-            builder.OpenComponent<Swastika.Admin.Blazor.Client.Pages.Portal.Shared.PortalHeader>(1);
+            builder.OpenComponent<Swastika.Admin.Blazor.Client.Pages.portal.Shared.PortalHeader>(1);
             builder.CloseComponent();
             builder.AddContent(2, "\n\n    ");
             builder.AddContent(3, Body);
             builder.AddContent(4, "\n\n\n");
         }
         #pragma warning restore 1998
-        
+#line 9 "E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\Shared\PortalLayout.cshtml"
+            
 public RenderFragment Body { get; set; }
+
+#line default
+#line hidden
     }
 }
 #pragma warning restore 1591

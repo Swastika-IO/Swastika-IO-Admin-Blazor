@@ -16,6 +16,7 @@ namespace Swastika.Admin.Blazor.Client.Pages
     using Swastika.Admin.Blazor.Client;
     using Swastika.Admin.Blazor.Client.Shared;
     [Microsoft.AspNetCore.Blazor.Layouts.LayoutAttribute(typeof(MainLayout))]
+
     [Microsoft.AspNetCore.Blazor.Components.RouteAttribute("/")]
     public class Index : Microsoft.AspNetCore.Blazor.Components.BlazorComponent
     {

@@ -4,6 +4,7 @@
 #pragma warning disable 0414
 #pragma warning disable 0649
 #pragma warning disable 0169
+
 namespace Swastika.Admin.Blazor.Client
 {
     #line hidden

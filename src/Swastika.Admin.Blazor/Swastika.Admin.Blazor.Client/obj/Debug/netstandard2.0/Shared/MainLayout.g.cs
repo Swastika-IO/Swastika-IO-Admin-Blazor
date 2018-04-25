@@ -49,8 +49,13 @@ namespace Swastika.Admin.Blazor.Client.Shared
             builder.AddContent(20, "\n\n");
         }
         #pragma warning restore 1998
-        
+#line 14 "E:\_Workspace\Github\Swastika-IO-Admin-Blazor\src\Swastika.Admin.Blazor\Swastika.Admin.Blazor.Client\Shared\MainLayout.cshtml"
+                
     public RenderFragment Body { get; set; }
+    
+
+#line default
+#line hidden
     }
 }
 #pragma warning restore 1591

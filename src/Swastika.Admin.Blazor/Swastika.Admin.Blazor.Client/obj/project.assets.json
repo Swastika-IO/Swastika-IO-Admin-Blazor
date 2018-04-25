@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Microsoft.AspNetCore.Blazor/0.1.0": {
+      "Microsoft.AspNetCore.Blazor/0.2.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.dll": {}
@@ -11,10 +11,10 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Blazor.Browser/0.1.0": {
+      "Microsoft.AspNetCore.Blazor.Browser/0.2.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Blazor": "0.1.0",
+          "Microsoft.AspNetCore.Blazor": "0.2.1",
           "Microsoft.Extensions.DependencyInjection": "2.0.0"
         },
         "compile": {
@@ -24,7 +24,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.Browser.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Blazor.Build/0.1.0": {
+      "Microsoft.AspNetCore.Blazor.Build/0.2.1": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -104,35 +104,37 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Blazor/0.1.0": {
-      "sha512": "fO22yHG39ElmqAKQHxdZfg7zrRgZc/Roj/sVg2tx8Yd0BkBM/aIcMvX7uP6lKZMIlTXcsK9DjNS/IvC8w7I3vQ==",
+    "Microsoft.AspNetCore.Blazor/0.2.1": {
+      "sha512": "wJX4QQSEic7gouYi2mOxwRJILNRszgnb1Y6BIB61HB/XbZD7H7J8eAkI3imOOvKnfS4+ETEyYW6lEAFtdfEvEA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.blazor/0.1.0",
+      "path": "microsoft.aspnetcore.blazor/0.2.1",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.dll",
-        "microsoft.aspnetcore.blazor.0.1.0.nupkg.sha512",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.xml",
+        "microsoft.aspnetcore.blazor.0.2.1.nupkg.sha512",
         "microsoft.aspnetcore.blazor.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Blazor.Browser/0.1.0": {
-      "sha512": "ecktKdounLa8rxjTtouyp4oRV8YTqgJvoG+ejgD3ZBE39zvPPyw9q5LPe1ijeww1xCcq7Y+kVtHv+uNDdfCc/A==",
+    "Microsoft.AspNetCore.Blazor.Browser/0.2.1": {
+      "sha512": "Bf4gfDKmvawiwqKK/JaKANuvtKmi9+cTPf8Dcp/eudAXerE33csnv9/OD/dncpurJ9A0mzRdhiYLpOVAm4bfXQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.blazor.browser/0.1.0",
+      "path": "microsoft.aspnetcore.blazor.browser/0.2.1",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.Browser.dll",
-        "microsoft.aspnetcore.blazor.browser.0.1.0.nupkg.sha512",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Blazor.Browser.xml",
+        "microsoft.aspnetcore.blazor.browser.0.2.1.nupkg.sha512",
         "microsoft.aspnetcore.blazor.browser.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Blazor.Build/0.1.0": {
-      "sha512": "6afvL26ELKBGhUhso578BrH7Z6anu1heuGzY3EXLdaearANz/QQpwC3NUKqnRLaUm4s+TjvURHID+veTZxJDLQ==",
+    "Microsoft.AspNetCore.Blazor.Build/0.2.1": {
+      "sha512": "+pS6ifK8SfQGFvP5yjdROigVTljePAyMO0C23AJ+rXN7ZDo41UHltb21UmxZjwtRe3Ntf5FaIFZW4sRS86f4vA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.blazor.build/0.1.0",
+      "path": "microsoft.aspnetcore.blazor.build/0.2.1",
       "files": [
         "build/netstandard1.0/Microsoft.AspNetCore.Blazor.Build.props",
         "build/netstandard1.0/Microsoft.AspNetCore.Blazor.Build.targets",
         "lib/netstandard1.0/_._",
-        "microsoft.aspnetcore.blazor.build.0.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.blazor.build.0.2.1.nupkg.sha512",
         "microsoft.aspnetcore.blazor.build.nuspec",
         "targets/All.props",
         "targets/All.targets",
@@ -144,11 +146,15 @@
         "targets/Standalone.Web.config",
         "tools/Microsoft.AspNetCore.Blazor.AngleSharp.dll",
         "tools/Microsoft.AspNetCore.Blazor.Browser.JS.dll",
+        "tools/Microsoft.AspNetCore.Blazor.Browser.JS.xml",
         "tools/Microsoft.AspNetCore.Blazor.Build.deps.json",
         "tools/Microsoft.AspNetCore.Blazor.Build.dll",
         "tools/Microsoft.AspNetCore.Blazor.Build.runtimeconfig.json",
+        "tools/Microsoft.AspNetCore.Blazor.Build.xml",
         "tools/Microsoft.AspNetCore.Blazor.Razor.Extensions.dll",
+        "tools/Microsoft.AspNetCore.Blazor.Razor.Extensions.xml",
         "tools/Microsoft.AspNetCore.Blazor.dll",
+        "tools/Microsoft.AspNetCore.Blazor.xml",
         "tools/Microsoft.AspNetCore.Razor.Language.dll",
         "tools/Microsoft.CodeAnalysis.CSharp.dll",
         "tools/Microsoft.CodeAnalysis.Razor.dll",
@@ -202,6 +208,7 @@
         "tools/mono/bcl/Facades/System.Diagnostics.TraceEvent.dll",
         "tools/mono/bcl/Facades/System.Diagnostics.TraceSource.dll",
         "tools/mono/bcl/Facades/System.Diagnostics.Tracing.dll",
+        "tools/mono/bcl/Facades/System.Drawing.Common.dll",
         "tools/mono/bcl/Facades/System.Drawing.Primitives.dll",
         "tools/mono/bcl/Facades/System.Dynamic.Runtime.dll",
         "tools/mono/bcl/Facades/System.Globalization.Calendars.dll",
@@ -222,6 +229,7 @@
         "tools/mono/bcl/Facades/System.Linq.Parallel.dll",
         "tools/mono/bcl/Facades/System.Linq.Queryable.dll",
         "tools/mono/bcl/Facades/System.Linq.dll",
+        "tools/mono/bcl/Facades/System.Memory.dll",
         "tools/mono/bcl/Facades/System.Net.AuthenticationManager.dll",
         "tools/mono/bcl/Facades/System.Net.Cache.dll",
         "tools/mono/bcl/Facades/System.Net.HttpListener.dll",
@@ -247,8 +255,10 @@
         "tools/mono/bcl/Facades/System.Reflection.Primitives.dll",
         "tools/mono/bcl/Facades/System.Reflection.TypeExtensions.dll",
         "tools/mono/bcl/Facades/System.Reflection.dll",
+        "tools/mono/bcl/Facades/System.Resources.Reader.dll",
         "tools/mono/bcl/Facades/System.Resources.ReaderWriter.dll",
         "tools/mono/bcl/Facades/System.Resources.ResourceManager.dll",
+        "tools/mono/bcl/Facades/System.Resources.Writer.dll",
         "tools/mono/bcl/Facades/System.Runtime.CompilerServices.VisualC.dll",
         "tools/mono/bcl/Facades/System.Runtime.Extensions.dll",
         "tools/mono/bcl/Facades/System.Runtime.Handles.dll",
@@ -555,8 +565,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Microsoft.AspNetCore.Blazor.Browser >= 0.1.0",
-      "Microsoft.AspNetCore.Blazor.Build >= 0.1.0",
+      "Microsoft.AspNetCore.Blazor.Browser >= 0.2.1",
+      "Microsoft.AspNetCore.Blazor.Build >= 0.2.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.0-preview2-final",
       "NETStandard.Library >= 2.0.1",
       "Swastika.Admin.Blazor.Shared >= 1.0.0"
@@ -609,13 +619,12 @@
       "netstandard2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Blazor.Browser": {
-            "suppressParent": "All",
             "target": "Package",
-            "version": "[0.1.0, )"
+            "version": "[0.2.1, )"
           },
           "Microsoft.AspNetCore.Blazor.Build": {
             "target": "Package",
-            "version": "[0.1.0, )"
+            "version": "[0.2.1, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
