@@ -1,0 +1,153 @@
+﻿@*// PAGE C# FUNCTIONS START *@
+@using Swastika.Admin.Blazor.Shared
+@page "/portal/ecom/products"
+@inject HttpClient Http
+
+@functions {
+Product[] products;
+
+protected override async Task OnInitAsync()
+{
+    products = await Http.GetJsonAsync<Product[]>("/api/SampleData/Products");
+}
+}
+@*// PAGE C# FUNCTIONS END *@
+
+@if (products == null)
+{
+    <section class="content container-fluid">
+        <div class="loader-container">
+            <div id="loader"></div>
+        </div>
+    </section>
+}
+else
+{
+
+    <!-- Main content -->
+    <section class="content container-fluid">
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group mr-2" role="group" aria-label="First group">
+                        <a asp-area="Portal" asp-controller="Product" asp-action="Create" class="btn btn-secondary"><i class="mi mi-Add"></i></a>
+                    </div>
+                    <div class="btn-group dropdown mr-2">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownOrderBy" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{request.status}}
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownOrderBy">
+                            <button class="dropdown-product" ng-repeat="product in swStatus track by $index" ng-model="request.status" ng-click="request.status=product;loadProducts();"
+                                    value="@products">
+                                @products
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <div class="input-group-prepend" ng-click="loadProducts(0)">
+                        <div class="input-group-text" id="btnGroupAddon"><i class="mi mi-Search" style="top:0;"></i></div>
+                    </div>
+                    <input ng-model="request.keyword" ng-enter="loadProducts(0)" type="text" class="form-control" placeholder="Search......" aria-label="Search......" aria-describedby="btnGroupAddon">
+                </div>
+            </div>
+        </div>
+
+        <table class="table table-sm table-hover" cellspacing="0">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col" style="width: 3%;">
+                        <span class="fas fa-arrows-alt"></span>
+                    </th>
+                    <th scope="col" style="width: 4%;">
+                        <span class="fas fa-sort-numeric-down"></span>
+                    </th>
+                    <th scope="col" style="width: 5%;">
+                        Code
+                    </th>
+                    <th scope="col" style="width: 25%;">
+                        Title
+                    </th>
+                    <th scope="col" width="10%">
+                        Image
+                    </th>
+                    <th scope="col" width="10%">
+                        Created Date
+                    </th>
+                    <th scope="col" style="width: 10%;">
+                        Created By
+                    </th>
+
+                    <th scope="col" style="width: 5%;">Actions</th>
+                </tr>
+            </thead>
+
+            <tbody class="sortable">
+                @foreach (var product in products)
+                {
+                    <tr class="sortable-product" sort-model="product" sort-model-id="@product.id">
+                        <td style="cursor:move;" class="drag-header">
+                            <span class="fas fa-sort"></span>
+                        </td>
+                        <td>
+                            <input type="text" value="@product.priority" class="product-priority form-control form-control-sm d-inline" style="width:40px;" />
+                        </td>
+                        <td>
+                            @product.code
+                        </td>
+                        <td>
+                            @product.title
+                        </td>
+                        <td>
+                            <div ng-if="product.image!=''">
+                                <img height="50" src="@product.imageUrl" />
+                            </div>
+                        </td>
+                        <td>
+                            <small>
+                                @product.createdDateTime
+                            </small>
+                        </td>
+                        <td>
+                            @product.createdBy
+                        </td>
+
+                        <td>
+                            <div class="btn-group btn-group-sm" role="group" aria-label="Actions">
+                                <a href="/{{currentLanguage}}/portal/product/edit/@product.id" class="btn btn-light">
+                                    <span class="fas fa-pencil-alt text-primary"></span>
+                                </a>
+                                <a href="@product.detailsUrl" target="_blank" class="btn btn-light">
+                                    <span class="fas fa-eye text-info"></span>
+                                </a>
+
+                                <button type="button" class="btn btn-light del-popover"
+                                        ng-click="removeProduct(product.id)">
+                                    <span class="fas fa-times text-danger"></span>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+                <li class="page-product">
+                    <a class="page-link active" href="javascript:void(0)" ng-click="loadProducts(data.pageIndex-1)"
+                       ng-hide="data.pageIndex==0">Prev</a>
+                </li>
+                <li class="page-product" ng-class="{active: n-1==data.pageIndex}" ng-repeat="n in range(data.totalPage)">
+                    <a class="page-link" href="javascript:void(0)" ng-click="loadProducts(n-1)">{{n}}</a>
+                </li>
+                <li class="page-product">
+                    <a class="page-link" href="javascript:void(0)" ng-click="loadProducts(data.pageIndex + 1)"
+                       ng-hide="data.pageIndex >= (data.totalPage-1)">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+}

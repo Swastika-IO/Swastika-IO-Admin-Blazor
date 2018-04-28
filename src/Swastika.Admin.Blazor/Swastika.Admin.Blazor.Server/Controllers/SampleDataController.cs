@@ -26,5 +26,24 @@ namespace Swastika.Admin.Blazor.Server.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             });
         }
+
+
+        [HttpGet("[action]")]
+        public IEnumerable<Product> Products()
+        {
+            var rng = new Random();
+            return Enumerable.Range(1, 5).Select(index => new Product
+            {
+                id = rng.Next(-20, 55),
+                priority = rng.Next(-20, 55),
+                code = rng.Next(-20, 55),
+                createdDateTime = DateTime.Now.AddDays(index),
+                title = "ABC",
+                image = "images...",
+                imageUrl = "imageUrl...",
+                createdBy = "Huy Nguyen...",
+                detailsUrl = "detailsUrl..."
+            });
+        }
     }
 }

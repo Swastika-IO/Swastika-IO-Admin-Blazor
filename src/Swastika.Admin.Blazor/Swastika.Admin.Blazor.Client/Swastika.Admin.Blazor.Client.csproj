@@ -65,4 +65,8 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\Portal\Ecom\Products.cshtml" />
+  </ItemGroup>
+
 </Project>
