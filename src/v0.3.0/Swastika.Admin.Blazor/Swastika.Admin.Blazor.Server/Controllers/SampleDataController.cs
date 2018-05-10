@@ -1,4 +1,8 @@
-﻿using Swastika.Admin.Blazor.Shared;
+﻿// Licensed to the Swastika I/O Foundation under one or more agreements.
+// The Swastika I/O Foundation licenses this file to you under the GNU General Public License v3.0 license.
+// See the LICENSE file in the project root for more information.
+
+using Swastika.Admin.Blazor.Shared;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -24,6 +28,24 @@ namespace Swastika.Admin.Blazor.Server.Controllers
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)]
+            });
+        }
+
+        [HttpGet("[action]")]
+        public IEnumerable<Product> Products()
+        {
+            var rng = new Random();
+            return Enumerable.Range(1, 5).Select(index => new Product
+            {
+                id = rng.Next(-20, 55),
+                priority = rng.Next(-20, 55),
+                code = rng.Next(-20, 55),
+                createdDateTime = DateTime.Now.AddDays(index),
+                title = "ABC",
+                image = "images...",
+                imageUrl = "imageUrl...",
+                createdBy = "Huy Nguyen...",
+                detailsUrl = "detailsUrl..."
             });
         }
     }
